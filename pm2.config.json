@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "whooshing.system-authentication",
+            "cwd": "./",
+            "script": "./App --env production"
+        }
+    ]
+}
