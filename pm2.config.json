@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "whooshing.system-authentication",
+            "name": "whooshing.module-testing",
             "cwd": "./",
             "script": "./App --env production"
         }
