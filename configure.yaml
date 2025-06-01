@@ -1,6 +1,6 @@
 ---
-whooshing.template-basic:
-    domain: "template"
+whooshing.module-testing:
+    domain: "testing"
     pgsql:
         "default":
             database: "testing"
@@ -18,7 +18,7 @@ whooshing.template-basic:
                 port: 3
                 pgDatabasePorts: [0]
                 domain: "web"
-            path: "<<Path to bundle>>"
+            path: "./bundle"
     shared_inline_module:
         port: 2
         pgDatabasePorts: [0, 10]
