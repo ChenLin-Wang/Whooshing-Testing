@@ -9,4 +9,8 @@ func routes<T>(_ woo: Whooshing<T>, _ app: Application) throws where T: ServiceT
     app.get("hello") { req async -> String in
         "Hello, world!"
     }
+    
+    app.post("testing") { req -> String in
+        "testing success"
+    }
 }

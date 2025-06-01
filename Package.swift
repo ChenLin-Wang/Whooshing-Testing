@@ -5,7 +5,6 @@ import PackageDescription
 // 指定某个环境变量，则需要在 configure.swift 中实现相关的配置函数
 // 可设置 .https 和 .api 两个
 let WhooshingModules: [WhooshingModuleType] = [
-    .https,
     .api
 ]
 
@@ -15,7 +14,7 @@ enum WhooshingModuleType: String {
 }
 
 let package = Package(
-    name: "whooshing.template-basic",
+    name: "whooshing.module-testing",
     platforms: [
         .macOS(.v10_15),
         .iOS(.v14),
